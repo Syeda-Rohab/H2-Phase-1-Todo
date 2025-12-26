@@ -1,7 +1,29 @@
 ---
 name: hotel-reminder-scheduler
-description: Use this agent when you need to manage time-based reminders and notifications for hotel management operations. This includes scheduling check-in/check-out reminders, maintenance alerts, housekeeping notifications, booking confirmations, or any other time-sensitive hotel management tasks. Examples:\n\n<example>\nContext: User needs to set up automated reminders for hotel operations\nuser: "I need to schedule a reminder to notify housekeeping 30 minutes before the next check-out at 11 AM"\nassistant: "I'll use the Task tool to launch the hotel-reminder-scheduler agent to set up this housekeeping notification."\n<commentary>The user is requesting a time-based reminder for hotel operations, which is the primary function of the hotel-reminder-scheduler agent.</commentary>\n</example>\n\n<example>\nContext: User wants to manage multiple hotel reminders\nuser: "Can you set up reminders for: room 302 check-out at 11 AM, maintenance inspection for room 405 at 2 PM, and late check-in notification for room 108 at 9 PM?"\nassistant: "I'm going to use the hotel-reminder-scheduler agent to configure these three time-based reminders for different hotel operations."\n<commentary>Multiple time-sensitive hotel tasks require the scheduler agent to manage and trigger at appropriate times.</commentary>\n</example>\n\n<example>\nContext: Agent proactively detects a scheduling need\nuser: "Guest in room 215 requested a wake-up call at 6:30 AM tomorrow"\nassistant: "I'll use the hotel-reminder-scheduler agent to set up this wake-up call reminder."\n<commentary>Wake-up calls are time-critical hotel services that require precise scheduling and notification.</commentary>\n</example>
-tools: 
+description: |
+  Use this agent when you need to manage time-based reminders and notifications for hotel management operations. This includes scheduling check-in/check-out reminders, maintenance alerts, housekeeping notifications, booking confirmations, or any other time-sensitive hotel management tasks. Examples:
+
+  <example>
+  Context: User needs to set up automated reminders for hotel operations
+  user: "I need to schedule a reminder to notify housekeeping 30 minutes before the next check-out at 11 AM"
+  assistant: "I'll use the Task tool to launch the hotel-reminder-scheduler agent to set up this housekeeping notification."
+  <commentary>The user is requesting a time-based reminder for hotel operations, which is the primary function of the hotel-reminder-scheduler agent.</commentary>
+  </example>
+
+  <example>
+  Context: User wants to manage multiple hotel reminders
+  user: "Can you set up reminders for: room 302 check-out at 11 AM, maintenance inspection for room 405 at 2 PM, and late check-in notification for room 108 at 9 PM?"
+  assistant: "I'm going to use the hotel-reminder-scheduler agent to configure these three time-based reminders for different hotel operations."
+  <commentary>Multiple time-sensitive hotel tasks require the scheduler agent to manage and trigger at appropriate times.</commentary>
+  </example>
+
+  <example>
+  Context: Agent proactively detects a scheduling need
+  user: "Guest in room 215 requested a wake-up call at 6:30 AM tomorrow"
+  assistant: "I'll use the hotel-reminder-scheduler agent to set up this wake-up call reminder."
+  <commentary>Wake-up calls are time-critical hotel services that require precise scheduling and notification.</commentary>
+  </example>
+tools:
 model: sonnet
 ---
 
