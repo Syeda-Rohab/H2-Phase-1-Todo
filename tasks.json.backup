@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Buy groceries + pharmacy",
+      "description": "Milk, bread, eggs, butter + pick up prescription",
+      "completed": false,
+      "created": "2025-12-26T15:08:36.995781"
+    },
+    {
+      "id": 2,
+      "title": "Finish Python project",
+      "description": "Complete the todo app implementation",
+      "completed": true,
+      "created": "2025-12-26T15:08:37.439009"
+    },
+    {
+      "id": 4,
+      "title": "Workout",
+      "description": "30 min cardio + weights",
+      "completed": false,
+      "created": "2025-12-26T15:08:38.304884"
+    },
+    {
+      "id": 5,
+      "title": "Shopping",
+      "description": "Buy groceries for the week",
+      "completed": false,
+      "created": "2025-12-26T15:17:34.508765"
+    },
+    {
+      "id": 6,
+      "title": "Study",
+      "description": "Learn Python programming",
+      "completed": true,
+      "created": "2025-12-26T15:17:41.463308"
+    },
+    {
+      "id": 7,
+      "title": "Call doctor",
+      "description": "Schedule annual checkup appointment",
+      "completed": false,
+      "created": "2025-12-26T15:19:19.775852"
+    },
+    {
+      "id": 9,
+      "title": "Read Python book",
+      "description": "Read Python tutorial for 1 hour",
+      "completed": false,
+      "created": "2025-12-26T15:21:27.001245"
+    }
+  ],
+  "next_id": 10
+}
