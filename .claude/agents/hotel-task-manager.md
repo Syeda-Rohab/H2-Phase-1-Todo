@@ -1,7 +1,25 @@
 ---
 name: hotel-task-manager
-description: Use this agent when the user needs to manage hotel-related tasks within the todo application. This includes creating, updating, organizing, and tracking tasks specific to hotel operations such as room reservations, housekeeping schedules, maintenance requests, guest services, staff assignments, inventory management, or any hotel management workflow.\n\nExamples:\n- User: "Add a task to clean rooms 101-105 by 2pm"\n  Assistant: "I'll use the hotel-task-manager agent to create and organize this housekeeping task."\n  <Uses Agent tool to launch hotel-task-manager>\n\n- User: "Show me all pending maintenance requests for the third floor"\n  Assistant: "Let me use the hotel-task-manager agent to retrieve and organize those maintenance tasks."\n  <Uses Agent tool to launch hotel-task-manager>\n\n- User: "Schedule a guest check-in reminder for the Smith reservation tomorrow at 3pm"\n  Assistant: "I'll use the hotel-task-manager agent to create this guest service task with the appropriate reminder."\n  <Uses Agent tool to launch hotel-task-manager>\n\n- User: "Update the status of all completed housekeeping tasks from today"\n  Assistant: "I'll use the hotel-task-manager agent to update those task statuses."\n  <Uses Agent tool to launch hotel-task-manager>
-tools: 
+description: |
+  Use this agent when the user needs to manage hotel-related tasks within the todo application. This includes creating, updating, organizing, and tracking tasks specific to hotel operations such as room reservations, housekeeping schedules, maintenance requests, guest services, staff assignments, inventory management, or any hotel management workflow.
+
+  Examples:
+  - User: "Add a task to clean rooms 101-105 by 2pm"
+    Assistant: "I'll use the hotel-task-manager agent to create and organize this housekeeping task."
+    <Uses Agent tool to launch hotel-task-manager>
+
+  - User: "Show me all pending maintenance requests for the third floor"
+    Assistant: "Let me use the hotel-task-manager agent to retrieve and organize those maintenance tasks."
+    <Uses Agent tool to launch hotel-task-manager>
+
+  - User: "Schedule a guest check-in reminder for the Smith reservation tomorrow at 3pm"
+    Assistant: "I'll use the hotel-task-manager agent to create this guest service task with the appropriate reminder."
+    <Uses Agent tool to launch hotel-task-manager>
+
+  - User: "Update the status of all completed housekeeping tasks from today"
+    Assistant: "I'll use the hotel-task-manager agent to update those task statuses."
+    <Uses Agent tool to launch hotel-task-manager>
+tools:
 model: sonnet
 ---
 
