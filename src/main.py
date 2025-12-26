@@ -81,7 +81,7 @@ def handle_list(app: TodoApp) -> None:
     for task in tasks:
         status = "[X] Complete" if task.completed else "[ ] Incomplete"
         title = task.title[:27] + "..." if len(task.title) > 30 else task.title
-        created = task.created[:19]  # Strip microseconds
+        created = task.created_at[:19]  # Strip microseconds
         print(f"{task.id:<5} | {title:<30} | {status:<14} | {created:<20}")
 
 

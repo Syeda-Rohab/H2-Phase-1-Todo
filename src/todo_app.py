@@ -3,7 +3,7 @@
 import json
 from pathlib import Path
 from typing import List, Optional
-from src.models.task import Task
+from src.models.task import Task, create_task
 
 
 class TodoApp:
@@ -66,7 +66,7 @@ class TodoApp:
         if not description or not description.strip():
             raise ValueError("Description cannot be empty")
 
-        task = Task.create(self.next_id, title.strip(), description.strip())
+        task = create_task(self.next_id, title.strip(), description.strip())
         self.tasks.append(task)
         self.next_id += 1
         self._save_tasks()
